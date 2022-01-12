@@ -20,8 +20,8 @@
     font-size: 17px;
     font-weight: 500;
     padding: 20px 25px;
-    border-radius: 25px;
-    box-shadow: 0 0 10px #b8b8b8;
+    border-radius: 35px;
+    box-shadow: 7px 7px 10px #d6d6d6;
 }
 
 
@@ -44,16 +44,16 @@ header{
     display: block;
 }
 nav{
-    width: 60%;
+    width: 50%;
 }
 nav a{
     color: black;
     display: inline-block;
-    margin: 30px;
-    letter-spacing: 1px;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 #nav-search{
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,9 +106,8 @@ nav a{
     margin: 35px 0;
 }
 .hero-box h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 70px;
+    line-height: 70px;
     text-transform: capitalize;
 }
 .hero-box p{
@@ -145,4 +144,210 @@ nav a{
     font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 30px;
+}
+
+
+
+
+
+/* Feature Section Styles */
+#feature-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#feature-top h1{
+    color: #9C69E2;
+    margin-top: 70px;
+    font-size: 35px;
+}
+#feature-top p{
+    width: 40%;
+    margin: 35px 0;
+}
+#feature-wrapper{
+    margin-bottom: 50px;
+    padding: 20px 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+}
+.feature-box:nth-child(1){
+    background-color: hsla(171, 47%, 60%, 10%);
+}
+.feature-box:nth-child(2){
+    background-color: hsla(265, 68%, 65%, 10%);
+}
+.feature-box:nth-child(3){
+    background-color: hsla(324, 82%, 66%, 10%);
+}
+.feature-box:nth-child(4){
+    background-color: hsla(202, 71%, 52%, 10%);
+}
+.feature-box{
+    background-color: hsla(171, 47%, 60%, 10%);
+    padding: 35px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-box-banner{
+    width: 40%;
+}
+.feature-box img{
+    width: 100%;
+}
+.feature-info{
+    width: 55%;
+}
+.feature-info h2{
+    color: #F063B8;
+}
+.feature-info p{
+    margin: 20px 0;
+}
+.feature-info a{
+    color: black;
+    font-weight: 600;
+}
+.feature-info a i{
+    display: inline-block;
+    margin-left: 10px;
+    color: #9C69E2;
+}
+
+
+
+
+
+/* Pricing Section Styles */
+#pricing{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-box h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.price-box a{
+    margin-left: 30px;
+    background-color: #F063B8;
+}
+.price-box a:nth-child(2){
+    background-color: transparent;
+    color: black;
+}
+.price-box a i{
+    display: inline-block;
+    color: #9C69E2;
+    margin-left: 15px;
+}
+
+
+
+
+
+/* Foo Section Styles */
+#foo{
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.foo-box:nth-child(1){
+    width: 25%;
+}
+.foo-box:nth-child(2){
+    width: 45%;
+}
+.foo-box:nth-child(3){
+    width: 20%;
+}
+#foo-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#foo-logo img{
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+}
+#foo-add{
+    margin: 30px 0;
+}
+#foo-contact{
+    font-weight: 600;
+}
+#foo-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+#foo-nav div a{
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+#foo-nav div a:nth-child(1){
+    margin-bottom: 30px;
+}
+#foo-social p{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+#foo-social div a{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+}
+#foo-social div a i{
+    font-size: 20px;
+    color: black;
+    display: block;
+    margin: 15px;
+}
+#foo-social div a:nth-child(1) i{
+    margin: 15px 18px;
+}
+
+
+
+
+
+/* Foo-info Section Styles */
+#foo-info{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#foo-info small{
+    display: inline-block;
+    font-weight: 500;
+}
+#foo-info a{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsla(265, 68%, 65%, 20%);
+}
+#foo-info a i{
+    font-size: 20px;
+    color: #9C69E2;
+    display: block;
+    margin: 15px;
 }
