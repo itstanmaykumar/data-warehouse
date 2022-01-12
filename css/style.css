@@ -1,3 +1,123 @@
+/* Global Styles\ */
 *{
+    padding: 0;
+    margin: 0;
     font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+*:focus {
+    outline: none;
+}
+.container{
+    width: 80%;
+    padding: 0 10%;
+    overflow: hidden;
+}
+.btn{
+    color: white;
+    background-color: #9C69E2;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #b8b8b8;
+}
+
+
+
+
+
+/* Header Styles Here  */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#brand{
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brand img{
+    width: 100%;
+    display: block;
+}
+nav{
+    width: 60%;
+}
+nav a{
+    color: black;
+    display: inline-block;
+    margin: 30px;
+    letter-spacing: 1px;
+}
+#nav-search{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-search form{
+    display: flex;
+}
+#nav-search form input{
+    width: 70%;
+    display: block;
+    padding: 10px 15px;
+    border-color: transparent;
+    box-shadow: 0 0 2px gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#nav-search form a{
+    width: 30%;
+    margin-left: -10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #b8b8b8;
+}
+#nav-search form a i{
+    color: #9C69E2;
+    display: block;
+    padding: 0 10px;
+}
+
+
+
+
+
+/* Hero Section Styles */
+#hero{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero-text{
+    width: 45%;
+}
+#hero-img{
+    width: 55%;
+}
+.hero-box{
+    margin: 30px 0;
+}
+.hero-box h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.hero-box p{
+    margin: 35px 0;
+    padding-right: 50px;
+}
+
+.hero-box img{
+    width: 100%;
 }
